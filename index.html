@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div id = "header">Weather Dashboard</div>
+    </header>
+    
+    <div class="gridContainer">
+        <div class="leftColumn">
+            <h3>Search for a City:</h3>
+            <input type="text" id="fname" name="fname">
+            <!-- Style This Search Button!-->
+            <button id="search">Search</button>
+            <br>
+            <br>
+            <div class="city">
+            
+            </div>
+        
+        </div>
+
+        
+        <div class="rightColumn">
+            <div class="info">
+                <h1>Please enter a city</h1>
+            </div>
+            <div class = "Forecast">
+                <h4>5-Day Forecast:</h4>
+                <!--make 4 horizontal cells-->
+                <div class = "ForecastBoxes">
+                    <div class="cell1"></div>
+                    <div class="cell2"></div>
+                    <div class="cell3"></div>
+                    <div class="cell4"></div>
+                    <div class="cell5"></div>
+                </div>
+            </div>
+        
+        </div>
+
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+</html>

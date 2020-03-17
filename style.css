@@ -1,0 +1,65 @@
+.gridContainer{
+    display:grid;
+    grid-template-columns: 33% auto;
+    
+}
+.ForecastBoxes{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    height: 150px;
+    grid-column-gap: 20px;
+    background-color:white;
+}
+.ForecastBoxes > div{
+    font-size:20px;
+    color:white;
+    background-color:#01579b;
+    border-radius: 8px;
+}
+#search{
+    float: left;
+    width: 20%;
+    padding: 7px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+header{
+    font-size: 30px;
+    background:black;
+    color:white;
+    text-align:center;
+}
+
+input{
+    float:left;
+    
+    width: 60%;
+    height: 30px;
+    font-size:20px;
+}
+
+#history{
+    display:block;
+    width:80%;
+    height: 40px;
+    font-size:20px;
+}
+button{
+    margin-bottom:5px;
+}
+#favorable{
+    background:green;
+
+}
+#moderate{
+    background:orange;
+
+}
+#severe{
+    background:red;
+
+}
